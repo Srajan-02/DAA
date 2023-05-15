@@ -1,0 +1,44 @@
+Write a program using divide and conquer approach to sort the given array of symbols based on the frequency of its occurances
+
+For example:
+
+If the given array of symbols contains ['*', '$', '*', '+', '*', '-', '-', '+', '-', '*']
+
+Then you output should be printed as
+
+$
+
++ +
+
+- - -
+
+* * * *
+
+
+
+Sample Input:
+
+1st line: 10 (size of the array)
+
+2nd line: '*', '$', '*', '+', '*', '-', '-', '+', '-', '*' (The array of symbols)
+
+Output:
+
+$
++ +
+- - -
+* * * *
+
+Note: There will be no symbols with equal number of occurances
+
+Sample 2:
+
+6
+
+% * $ % * *
+
+Output
+
+$
+% %
+* * *
